@@ -8,7 +8,7 @@ TOKEN = "7645634931:AAFKi5X6AzjtZci9fZQXV0q1LQEmUTVkqYI"
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         ["Информация", "Документы"],
-        ["Связь с кредитором"]
+        ["Связь с оператором"]
     ]
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
     await update.message.reply_text(
