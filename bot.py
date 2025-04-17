@@ -55,7 +55,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         await update.message.reply_text(
-            "📞 Если вас всё устраивает, вы можете сразу связаться с оператором по кнопке ниже:",
+            "📞 Если вас всё устраивает, вы можете сразу связаться с оператором по кнопке:",
             reply_markup=reply_markup
         )
 
